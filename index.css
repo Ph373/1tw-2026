@@ -116,6 +116,8 @@ section{
     padding: 16px;
     background-color: rgb(255, 255, 255, 0.1);
     color: rgb(255, 255, 255, 0.9);
+        gap: 12px;
+        padding: 6px 6px 6px 16px;
 }
 
 .tituloSeçao{
@@ -178,5 +180,22 @@ section{
         &:hover{
             filter: saturate(1);
         }
+    }
+
+    .jamilson{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 500;
+    }
+
+    .Alfredo{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .Inicio{
+        text-decoration: none;
     }
 }
