@@ -1,0 +1,54 @@
+body{
+    background-image: url("assets/ChatGPT\ Image\ 8_08_2026\,\ 09_56_09.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    header{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+
+        h2{
+            font-size: 13vw;
+            color: rgb(119, 119, 119);
+            mix-blend-mode: color-dodge;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+
+    .button-group{
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .cards-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+}
